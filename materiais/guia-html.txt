@@ -1,0 +1,7 @@
+GUIA RÁPIDO DE HTML5
+
+HTML estrutura o conteúdo de uma página.
+
+Elementos importantes: html, head, body, h1-h6, p, a, img, ul, ol, li, form, input, textarea e button.
+
+Projeto acadêmico DevLab.

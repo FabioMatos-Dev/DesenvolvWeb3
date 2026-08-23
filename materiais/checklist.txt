@@ -1,0 +1,12 @@
+CHECKLIST DE PROJETO WEB
+
+[ ] HTML5 estruturado
+[ ] Meta viewport
+[ ] CSS separado
+[ ] Navegação funcionando
+[ ] Layout responsivo
+[ ] Imagens e multimídia
+[ ] Formulário
+[ ] Links testados
+[ ] Arquivos organizados
+[ ] Identidade visual consistente

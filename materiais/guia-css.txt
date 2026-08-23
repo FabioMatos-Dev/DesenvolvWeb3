@@ -1,0 +1,7 @@
+GUIA RÁPIDO DE CSS3
+
+CSS controla a apresentação visual da página.
+
+Conceitos: seletores, cores, fontes, margem, padding, flexbox, grid, media queries, transições e animações.
+
+Projeto acadêmico DevLab.

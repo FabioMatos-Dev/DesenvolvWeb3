@@ -1,0 +1,94 @@
+<!--
+Projeto desenvolvido como atividade acadêmica da disciplina Desenvolvimento Web III, sob responsabilidade do
+Prof. Dr. Márcio Rodrigo Santos - TADS - IFPR/Campus Colombo, além de figurar no meu portfólio do GitHub 
+como projeto de prática e consolidação de habilidades como desenvolvedor web FullStack.
+
+Desenvolvedor: Fabio de Matos
+-->
+
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/style.css">
+        <title>DevLab | Contato</title>
+    </head>
+    <body>
+        <header>
+            <div class="container nav">
+                <a class="logo" href="index.html">Dev<span>Lab</span></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="material.html">Material</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="tecnologias.html">Tecnologias</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="page-hero">
+                <div class="container reveal">
+                    <span class="eyebrow">Fale conosco</span>
+                    <h1>Contato</h1>
+                    <p>Envie uma mensagem ou acompanhe o projeto pelas redes sociais.</p>
+                </div>
+            </section>
+            
+            <section>
+                <div class="container grid">
+                    <div class="card reveal">
+                        <h2>Envie sua mensagem</h2>
+                        <form id="contactForm">
+                            <div class="form-grid">
+                                <div>
+                                    <label for="nome">Nome</label>
+                                    <input id="nome" name="nome" required>
+                                </div>
+                                <div>
+                                    <label for="email">E-mail</label>
+                                    <input id="email" name="email" type="email" required>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="assunto">Assunto</label>
+                                <input id="assunto" name="assunto" required>
+                            </div>
+                            <div>
+                                <label for="mensagem">Mensagem</label>
+                                <textarea id="mensagem" name="mensagem" required></textarea>
+                            </div>
+                            <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+                            <div id="formMessage"></div>
+                        </form>
+                    </div>
+                    <div class="card reveal">
+                        <h2>Redes sociais</h2>
+                        <p>Acompanhe conteúdos e projetos relacionados a tecnologia.</p>
+                        <div class="tags" style="margin-top:22px">
+                            <a class="tag" href="https://www.instagram.com/" target="_blank">Instagram</a>
+                            <a class="tag" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+                            <a class="tag" href="https://github.com/" target="_blank">GitHub</a>
+                            <a class="tag" href="https://www.youtube.com/" target="_blank">YouTube</a>
+                        </div>
+                        <div class="notice">Os links acima são demonstrativos e podem ser substituídos por perfis reais.
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <p>© 2026 DevLab — Projeto acadêmico.</p>
+                <p>Desenvolvido por Fabio de Matos</p>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
